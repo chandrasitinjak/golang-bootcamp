@@ -11,7 +11,7 @@ import (
 var (
 	host     = "localhost"
 	user     = "postgres"
-	password = "RajaSonang1999*"
+	password = "password"
 	dbPort   = "5432"
 	dbName   = "MyGram"
 	db       *gorm.DB

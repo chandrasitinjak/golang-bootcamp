@@ -81,9 +81,7 @@ func GetAllPhotos(c *gin.Context) {
 		panic(result.Error)
 	}
 
-	c.JSON(http.StatusOK, gin.H{
-		"": APIPhoto,
-	})
+	c.JSON(http.StatusOK, APIPhoto)
 
 }
 
